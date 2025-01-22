@@ -1,3 +1,3 @@
-var posts=["2025/01/21/hello-world/","2025/01/22/test/","2025/01/22/mdhelp/","2025/01/22/mdhelp1/","2025/01/22/1/"];function toRandomPost(){
+var posts=["2025/01/22/mdhelp/","2025/01/21/hello-world/","2025/01/22/test/","2025/01/22/mdhelp1/","2025/01/22/1/","2025/01/22/mdhelp2/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
