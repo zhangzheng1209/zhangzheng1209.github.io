@@ -1,3 +1,3 @@
-var posts=["2025/02/12/Bangkok_2024/","2025/02/12/Miami_2024/","2025/02/08/Kuwait City_2024/","2025/02/09/Kuala Lumpur_2024/","2025/02/11/Phoenix_2024/","2025/02/09/Muscat_2024/","2025/01/22/Rabat_2024/","2025/02/10/Qionghai_2024/","2025/02/09/Riyadh_2024/","2025/02/11/Turpan_2024/","2025/01/22/mdhelp/","2025/02/09/nizwa_2024/"];function toRandomPost(){
+var posts=["2025/02/12/Bangkok_2024/","2025/02/09/Kuala Lumpur_2024/","2025/02/12/Chiang Mai_2024/","2025/02/08/Kuwait City_2024/","2025/02/12/Miami_2024/","2025/02/09/Muscat_2024/","2025/02/10/Qionghai_2024/","2025/02/11/Phoenix_2024/","2025/01/22/Rabat_2024/","2025/02/09/Riyadh_2024/","2025/01/22/mdhelp/","2025/02/09/nizwa_2024/","2025/02/11/Turpan_2024/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
